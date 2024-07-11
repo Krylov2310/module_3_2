@@ -10,7 +10,7 @@ print()
 def send_email(message, recipient,*,sender = "university.help@gmail.com"):
     gaf = ('.ru', '.net', '.com', '.hotmail')
     if message == '':
-        print('Текст сообщения не должно быть пустым!')
+        print('Текст сообщения не должун быть пустым!')
     elif recipient == '':
         print('Адрес отправителя не должен быть пустым!')
     elif not sender.endswith(gaf) or not ('@' in sender) or \
